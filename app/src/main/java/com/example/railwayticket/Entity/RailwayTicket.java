@@ -21,4 +21,44 @@ public class RailwayTicket {
         this.travelTime = travelTime;
         this.ticketPrice = ticketPrice;
     }
+
+    public String getDeparturePoint() {
+        return departurePoint;
+    }
+
+    public void setDeparturePoint(String departurePoint) {
+        this.departurePoint = departurePoint;
+    }
+
+    public String getArrivalPoint() {
+        return arrivalPoint;
+    }
+
+    public void setArrivalPoint(String arrivalPoint) {
+        this.arrivalPoint = arrivalPoint;
+    }
+
+    public String getDepartureDate() {
+        return departureDate;
+    }
+
+    public void setDepartureDate(String departureDate) {
+        this.departureDate = departureDate;
+    }
+
+    public String getTravelTime() {
+        return travelTime;
+    }
+
+    public void setTravelTime(String travelTime) {
+        this.travelTime = travelTime;
+    }
+
+    public float getTicketPrice() {
+        return ticketPrice;
+    }
+
+    public void setTicketPrice(float ticketPrice) {
+        this.ticketPrice = ticketPrice;
+    }
 }
