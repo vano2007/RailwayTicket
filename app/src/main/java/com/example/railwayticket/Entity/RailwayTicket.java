@@ -61,4 +61,15 @@ public class RailwayTicket {
     public void setTicketPrice(float ticketPrice) {
         this.ticketPrice = ticketPrice;
     }
+
+    @Override
+    public String toString() {
+        return "RailwayTicket{" +
+                "departurePoint='" + departurePoint + '\'' +
+                ", arrivalPoint='" + arrivalPoint + '\'' +
+                ", departureDate='" + departureDate + '\'' +
+                ", travelTime='" + travelTime + '\'' +
+                ", ticketPrice=" + ticketPrice +
+                '}';
+    }
 }
