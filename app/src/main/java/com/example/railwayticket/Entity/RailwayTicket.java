@@ -64,12 +64,12 @@ public class RailwayTicket {
 
     @Override
     public String toString() {
-        return "RailwayTicket{" +
-                "departurePoint='" + departurePoint + '\'' +
-                ", arrivalPoint='" + arrivalPoint + '\'' +
-                ", departureDate='" + departureDate + '\'' +
-                ", travelTime='" + travelTime + '\'' +
-                ", ticketPrice=" + ticketPrice +
-                '}';
+        return "Железнодорожный билет+" +
+                "место отправления " + departurePoint +
+                ", место прибытия " + arrivalPoint +
+                ", дата отправления " + departureDate +
+                ", время пути " + travelTime +
+                ", стоимость билета " + ticketPrice + " монет";
+
     }
 }
